@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "A test neural network for calculating the value y of the mathematical function y(x) = 2 * x - 5 by the argument x.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "tsc index.ts --outfile dist/index.js && node ./dist/index.js"
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.3.3"
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.17.0"
   }
 }
